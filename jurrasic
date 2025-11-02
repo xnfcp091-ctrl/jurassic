@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunia Dinosaurus - Jelajahi Makhluk Purba</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-b from-amber-50 to-orange-100">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-amber-700 to-orange-600 text-white py-8 shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <h1 class="text-5xl font-bold mb-2">🦕 Dunia Dinosaurus 🦖</h1>
+            <p class="text-xl text-amber-100">Jelajahi Makhluk Purba yang Menakjubkan</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <!-- Pengenalan -->
+        <section class="bg-white rounded-lg shadow-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold text-amber-800 mb-4">Apa itu Dinosaurus?</h2>
+            <p class="text-gray-700 text-lg leading-relaxed mb-4">
+                Dinosaurus adalah kelompok reptil yang hidup di Bumi selama periode Mesozoikum,
+                sekitar 230 juta hingga 66 juta tahun yang lalu. Mereka adalah makhluk yang paling
+                mendominasi di planet kita selama jutaan tahun sebelum punah secara misterius.
+            </p>
+            <p class="text-gray-700 text-lg leading-relaxed">
+                Nama "dinosaurus" berasal dari bahasa Yunani yang berarti "kadal yang mengerikan".
+                Meskipun begitu, tidak semua dinosaurus berukuran besar dan menakutkan!
+            </p>
+        </section>
+
+        <!-- Jenis-jenis Dinosaurus -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-amber-800 mb-8">Jenis-Jenis Dinosaurus Terkenal</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Tyrannosaurus Rex -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="bg-red-500 h-32 flex items-center justify-center text-5xl">
+                        <img src="IMG-20251023-WA0010.jpg">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-red-600 mb-2">Tyrannosaurus Rex</h3>
+                        <p class="text-gray-700 mb-3">
+                            Predator terbesar yang pernah hidup di darat. Panjang hingga 12 meter dengan gigi yang
+                            sangat tajam.
+                        </p>
+                        <p class="text-sm text-gray-600"><strong>Era:</strong> Kapur Akhir</p>
+                    </div>
+                </div>
+
+                <!-- Triceratops -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="bg-blue-500 h-32 flex items-center justify-center text-5xl">
+                        <img src="IMG-20251023-WA0011.jpg">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Triceratops</h3>
+                        <p class="text-gray-700 mb-3">
+                            Herbivora besar dengan tiga tanduk di kepala. Panjang hingga 9 meter dan sangat kuat.
+                        </p>
+                        <p class="text-sm text-gray-600"><strong>Era:</strong> Kapur Akhir</p>
+                    </div>
+                </div>
+
+                <!-- Stegosaurus -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="bg-green-500 h-32 flex items-center justify-center text-5xl">
+                        <img src="IMG-20251023-WA0008.jpg">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-green-600 mb-2">Stegosaurus</h3>
+                        <p class="text-gray-700 mb-3">
+                            Dikenal dengan pelat-pelat besar di punggungnya. Panjang hingga 9 meter dengan ekor berduri.
+                        </p>
+                        <p class="text-sm text-gray-600"><strong>Era:</strong> Jura Akhir</p>
+                    </div>
+                </div>
+
+                <!-- Brachiosaurus -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="bg-yellow-600 h-32 flex items-center justify-center text-5xl">
+                        <img src="IMG-20251023-WA0009.jpg">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-yellow-700 mb-2">Brachiosaurus</h3>
+                        <p class="text-gray-700 mb-3">
+                            Salah satu dinosaurus terbesar. Panjang hingga 25 meter dengan leher yang sangat panjang.
+                        </p>
+                        <p class="text-sm text-gray-600"><strong>Era:</strong> Jura Akhir</p>
+                    </div>
+                </div>
+
+                <!-- Velociraptor -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="bg-purple-500 h-32 flex items-center justify-center text-5xl">
+                        <img src="IMG-20251023-WA0007.jpg">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-purple-600 mb-2">Velociraptor</h3>
+                        <p class="text-gray-700 mb-3">
+                            Predator cerdas berukuran sedang. Panjang hanya 2 meter tetapi sangat gesit dan berburu
+                            dalam kelompok.
+                        </p>
+                        <p class="text-sm text-gray-600"><strong>Era:</strong> Kapur Akhir</p>
+                    </div>
+                </div>
+
+                <!-- Ankylosaurus -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <div class="bg-gray-600 h-32 flex items-center justify-center text-5xl">
+                        <img src="IMG-20251023-WA0012.jpg">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-700 mb-2">Ankylosaurus</h3>
+                        <p class="text-gray-700 mb-3">
+                            Dinosaurus berlapis seperti tank. Tubuhnya dilindungi oleh pelat-pelat tebal dan ekor
+                            berbentuk gada.
+                        </p>
+                        <p class="text-sm text-gray-600"><strong>Era:</strong> Kapur Akhir</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fakta Menarik -->
+        <section class="bg-white rounded-lg shadow-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold text-amber-800 mb-6">Fakta Menarik tentang Dinosaurus</h2>
+            <ul class="space-y-4">
+                <li class="flex items-start">
+                    <span class="text-2xl mr-4">🌍</span>
+                    <p class="text-gray-700"><strong>Hidup di Seluruh Dunia:</strong> Dinosaurus ditemukan di setiap
+                        benua, termasuk Antartika.</p>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-2xl mr-4">🦅</span>
+                    <p class="text-gray-700"><strong>Burung adalah Dinosaurus:</strong> Burung modern adalah keturunan
+                        langsung dari dinosaurus theropoda.</p>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-2xl mr-4">⏰</span>
+                    <p class="text-gray-700"><strong>Hidup Sangat Lama:</strong> Dinosaurus mendominasi Bumi selama 165
+                        juta tahun - jauh lebih lama dari manusia.</p>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-2xl mr-4">🌋</span>
+                    <p class="text-gray-700"><strong>Punah Karena Asteroid:</strong> Sebagian besar dinosaurus punah
+                        akibat tabrakan asteroid 66 juta tahun lalu.</p>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-2xl mr-4">🧬</span>
+                    <p class="text-gray-700"><strong>Berbagai Ukuran:</strong> Tidak semua dinosaurus besar. Ada yang
+                        seukuran ayam!</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-amber-800 text-white py-8 mt-12">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p class="text-lg mb-2">🦕 Dunia Dinosaurus 🦖</p>
+            <p class="text-amber-200">Jelajahi sejarah kehidupan di Bumi yang menakjubkan</p>
+            <p class="text-sm text-amber-300 mt-4">© 2025 - Dibuat dengan ❤️ untuk pecinta dinosaurus</p>
+        </div>
+    </footer>
+</body>
+
+</html>
